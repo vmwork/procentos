@@ -1,0 +1,40 @@
+.hidemenu {
+  display: none; }
+
+.company-popup {
+  position: absolute;
+  top: 150px;
+  left: 525px;
+  width: 252px;
+  height: 140px;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 1px 5px 0 rgba(55, 125, 42, 0.27);
+          box-shadow: 1px 1px 5px 0 rgba(55, 125, 42, 0.27);
+  border: solid 1px rgba(55, 125, 42, 0.27);
+  background-color: #ffffff; }
+
+.company-popup-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 15px; }
+
+.company-popup-item {
+  padding-left: 15px;
+  padding-top: 5px;
+  margin-top: 5px;
+  width: 100%;
+  height: 28px;
+  cursor: pointer; }
+
+.company-popup-item--line {
+  margin: 0;
+  padding: 0;
+  margin-left: 15px;
+  width: 85%;
+  height: 1px;
+  margin-top: 5px;
+  background-color: rgba(55, 125, 42, 0.67); }
+
+.company-popup-item:hover {
+  background-color: rgba(55, 125, 42, 0.27); }

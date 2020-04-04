@@ -1,0 +1,87 @@
+.price-chart {
+  width: 968px;
+  height: 488px;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 1px 5px 0 rgba(55, 125, 42, 0.27);
+          box-shadow: 1px 1px 5px 0 rgba(55, 125, 42, 0.27);
+  border: solid 1px rgba(55, 125, 42, 0.27);
+  background-color: #f2f3f3;
+  margin-top: 100px;
+  padding: 15px; }
+
+.price-chart h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.27;
+  text-align: left;
+  color: #377d2a; }
+
+.price-chart img {
+  border-radius: 25px;
+  -webkit-box-shadow: 1px 1px 5px 0 rgba(55, 125, 42, 0.27);
+          box-shadow: 1px 1px 5px 0 rgba(55, 125, 42, 0.27);
+  border: solid 1px rgba(55, 125, 42, 0.27); }
+
+.price-chart__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 30px;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px; }
+
+.price-chart__change {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 415.4px;
+  height: 28px;
+  border-radius: 5px;
+  border: solid 1px rgba(55, 125, 42, 0.27);
+  background-color: #ffffff;
+  padding: 0 15px; }
+
+.price-chart__change p {
+  margin: 0;
+  margin-top: 3px; }
+
+.price-chart__change-text {
+  font-size: 15px;
+  line-height: 1.47;
+  text-align: left;
+  color: #463b3b; }
+
+.price-chart__change-number {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.22;
+  text-align: center;
+  color: #c8331b; }
+
+.price-chart__change-monts,
+.price-chart__change-weeck,
+.price-chart__change-day,
+.price-chart__change-period {
+  width: 120px;
+  height: 28px;
+  border-radius: 5px;
+  border: solid 1px rgba(55, 125, 42, 0.27);
+  background-color: #377d2a;
+  color: #ffffff;
+  cursor: pointer; }

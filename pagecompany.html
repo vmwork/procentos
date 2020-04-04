@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Процентос</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/visually-hidden.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main-header.css">
+	<link rel="stylesheet" href="css/profile-nav.css">
+	<link rel="stylesheet" href="css/profile_aside-nav.css">
+
+<link rel="stylesheet" href="css/about-company.css">
+<link rel="stylesheet" href="css/about-company__header.css">
+<link rel="stylesheet" href="css/price-chart.css">
+<link rel="stylesheet" href="css/multipliers.css">
+<link rel="stylesheet" href="css/dividends.css">
+<link rel="stylesheet" href="css/assets.css">
+<link rel="stylesheet" href="css/company-news.css">
+
+
+
+
+
+	<link rel="stylesheet" href="css/notifications-popup.css">
+	<link rel="stylesheet" href="css/profile-menu-popup.css">
+	</head>
+<body>
+	<header class="main-header">
+		<div class="main-header-wrapper">
+		<h1 class="visually-hidden">Шапка сайта</h1>
+		<a href="#" class="main-header__logo">
+		<img src="img/logo-black.png" width="216" height="28" alt="Процентос" class="main-header__logo-image">
+		</a>
+		<form action="php.php" method="get" class="main-header__form">
+		<input name="search" type="search" placeholder="Поиск" class="main-header__form-input">
+	 <button type="submit"  class="main-header__form-button"></button> </form>
+	<nav class="main-nav">
+		<h2 class="visually-hidden">Панель навигации</h2>
+	<button class="main-header__notification" type="button"><img src="img/message.svg" alt="Уведомления">
+	</button>
+	<button class="main-header__write-message">Написать</button>
+	<div class="main-nav__profile">
+	<img src="img/ava.jpg" alt="Профайл">
+<button class="main-nav__profile-button" type="button"><img src="img/ava_row.svg" alt="Открыть навигацию"></button>
+</div>
+	</nav>
+	</div>
+	</header>
+	<main class="main">
+
+	
+	<h2 class="visually-hidden">Основной контент</h2>
+
+	<nav class="aside-nav">
+		<h2 class="visually-hidden">Меню пользователя</h2>
+			<button type="button" class="aside-nav__hide-menu--closed"></button>
+
+		<ul class="aside-nav__menu hide">
+
+			<li class="menu-item"><a href="#">Мой профиль</a></li>
+<li class="menu-item"><a href="#">Сообщения<span> - </span><span class="menu-item--color">99</span>		</a></li>
+<li class="menu-item"><a href="#">Подписки<span> - </span><span class="menu-item--color">99</span>		</a></li>
+			<li class="menu-item"><a href="#">Лучшие</a></li>
+			<li class="menu-item"><a href="#">Свежие<span> - </span><span class="menu-item--color">78</span>		</a></li>
+			<li class="menu-item"><a href="#">Пользователи</a></li>
+			<li class="menu-item menu-item--line"></li>
+			<li class="menu-item"><a href="#">Новости</a></li>
+			<li class="menu-item"><a href="#">Компании</a></li>
+			<li class="menu-item"><a href="#">Дивиденды</a></li>
+			<li class="menu-item"><a href="#">Сравнение</a></li>
+			<li class="menu-item "><a href="#">Рейтинги</a></li>
+			<li class="menu-item menu-item--line"></li>
+			<li class="menu-item "><a href="#">Книги</a></li>
+			<li class="menu-item"><a href="#">Обзоры книг</a></li>
+		</ul>
+	</nav>
+<section class="about-company">
+	<div class="about-company__header">
+		<article class="about-company__header-block1">
+			<h3 class="header-block1__company-information">Краткая информация о компании</h3>
+			<p class="header-block1__company-description">ПАО «Северсталь» — российская вертикально интегрированная сталелитейная и горнодобывающая компания. Владеет активами в России, а также на Украине, в Латвии, Польше, Италии, Либерии. Компания состоит из дивизионов «Северсталь Российская Сталь» и «Северсталь Ресурс». Контролирует компанию Алексей Мордашов. </p>
+	<div class="header-block1-table-wrapper">
+			<table>
+				<caption>Дивиденды</caption>
+				<tr>
+					<th>33.08 <span>₽</span></th>
+					<th>3,54 <span>%</span></th>
+				</tr>
+				<tr>
+					<th class="table--style">Ближайшие дивиденды</th>
+					<th class="table--style">Дивидендная доходность</th>
+				</tr>
+				<tr>
+					<th>2<span> дек </span><span>2019</span></th>
+					<th>4<span> дек </span><span>2019</span></th>
+				</tr>
+				<tr>
+					<th class="table--style">Ближайшие дивиденды</th>
+					<th class="table--style">Дивидендная доходность</th>
+				</tr>
+			</table>
+	<table>
+				<caption>Мультипликаторы</caption>
+				<tr>
+					<th>P/E – <span>6,92</span></th>
+					<th>P/B – <span>4,28</span></th>
+				</tr>
+				<tr>
+					<th class="table--style">Капитализация / Годовая прибыль</th>
+					<th class="table--style">Капитализация / Баланс. стоимость</th>
+				</tr>
+				<tr>
+					<th>ROE – <span> 62,67 </span><span>%</span></th>
+					<th>ROA – <span> 29,77 </span><span>%</span></th>
+				</tr>
+				<tr>
+					<th class="table--style">Рентабельность соб. капитала</th>
+					<th class="table--style">Рентабельность активов</th>
+				</tr>
+			</table>
+			</div>
+			<p class="header-block1__change-price">Изменение цены за год (min/max)</p>
+			<div class="header-block1__min-max">
+				<p>904,7 <span>₽</span></p>
+				<div class="header-block1__progress"></div>
+				<p>1 206,7 <span>₽</span></p>
+			</div>
+			<p class="header-block1--mod">934,7 <span>₽</span></p>
+		</article>
+
+
+
+		<article class="about-company__header-block2">
+			<img src="img/severstall.jpg" alt="logo severstal" width="72" height="72">
+			<p class="header-block2__name-company">Северсталь</p>
+			<p class="header-block2__nicname-company">CHMF</p>
+			<table>
+				<tr>
+					<th class="header-block2__row--color1">934.8 <span>₽</span></th>
+					<th class="header-block2__row--color2">– 14,18 <span>%</span></th>
+				</tr>
+				<tr>
+					<th class="header-block2__row--color3">Цена акции на 27.09.2019 | 18:49</th>
+					<th class="header-block2__row--color3">Изменение цены за последний год</th>
+				</tr>
+			</table>
+			<p class="header-block2__site">Сайт: <a href="Severstal.com">Severstal.com</a></p>
+			<div class="site-reporting__wrapper">
+			<p class="header-block2__site-reporting">Отчетность </p>
+			<p class="header-block2__site-mfco">МФСО</p>
+			<p class="header-block2__site-rsbu">РСБУ</p>
+
+						</div>
+						<div class="site-reporting__wrapper--line"></div>
+						<button class="header-block2--subscribe">Подписаться</button>
+						<button class="header-block2--compare">Сравнить</button>
+		</article>
+	</div>
+	<article class="price-chart">
+		<h2>График цены</h2>
+		<img src="img/schedule-price2.png" alt="График цены">
+		<div class="price-chart__wrapper">
+	<div class="price-chart__change">
+		<p class="price-chart__change-text">Изменения за год</p>
+		<p class="price-chart__change-number"><span>-</span>14.18 <span>%</span></p></div>
+		<button class="price-chart__change-monts">Месяц</button>
+				<button class="price-chart__change-weeck">Неделя</button>
+		<button class="price-chart__change-day">День</button>
+
+		<button class="price-chart__change-period">Свой период</button>
+
+	</div>
+
+	</article>
+	<article class="multipliers">
+		<h2>Мультипликаторы</h2>
+		<div class="multipliers__wrapper">
+			<p>Мультипликаторы стоимости компании</p>
+			<span>Оценка на 2кв 2019</span>
+		</div>
+				<div class="multipliers__wrapper2"> 
+		<span>P/E</span>
+		<p>Рыночная капитализация / Годовая прибыль</p>
+		<button class="multipliers__button-inde">6.92</button>
+		</div>
+		<img src="img/schedule-price3.png" alt="Рыночная капитализация график">
+
+<div class="multipliers__wrapper2"> 
+		<span>E/P</span>
+		<p>Годовая прибыль / Рыночная капитализация</p>
+		<button class="multipliers__button-inde">14,46 %</button>
+		</div>
+
+<div class="multipliers__wrapper2"> 
+		<span>P/B</span>
+		<p>Рыночная капитализация / Балансовая стоимость</p>
+		<button class="multipliers__button-inde">4,28</button>
+		</div>
+		<div class="multipliers__wrapper2 wrapper2--mod "> 
+		<span>EV/EBITDA</span>
+		<p>Стоимость компании / Прибыль до вычета процентов, налогов, амортизации <br>и износа</p>
+		<button class="multipliers__button-inde">4,97</button>
+		</div>
+		<div class="multipliers__wrapper2 wrapper2--mod "> 
+		<span>Debt/EBITDA</span>
+		<p>Чистый долг / Прибыль до вычета процентов, налогов,<br>
+амортизации и износа</p>
+		<button class="multipliers__button-inde">0,47</button>
+		</div>
+		<div class="multipliers__wrapper2"> 
+		<span>P/S</span>
+		<p>Рыночная капитализация / Годовая выручка</p>
+		<button class="multipliers__button-inde">1,63</button>
+		</div>
+		<div class="multipliers__wrapper2 wrapper2--mod2"> 
+		<span>L/A</span>
+		<p>Общая задолженность / Активы</p>
+		<button class="multipliers__button-inde">53,88 %</button>
+		</div>
+<div class="multipliers__wrapper3">
+			<p>Мультипликаторы эффективности компании</p>
+			
+		</div>
+
+
+<div class="multipliers__wrapper2"> 
+		<span>ROA</span>
+		<p>Рентабельность активов</p>
+		<button class="multipliers__button-inde">29,77 %
+</button>
+		</div>
+		<div class="multipliers__wrapper2"> 
+		<span>ROE</span>
+		<p>Рентабельность собственного капитала</p>
+		<button class="multipliers__button-inde">62,67 %</button>
+		</div>
+		<div class="multipliers__wrapper2"> 
+		<span>ROS</span>
+		<p>Рентабельность продаж</p>
+		<button class="multipliers__button-inde">23,54 %</button>
+		</div>
+		<div class="multipliers__wrapper2"> 
+		<span>EBITDA/S</span>
+		<p>Рентабельность по EBITDA</p>
+		<button class="multipliers__button-inde">36,25%</button>
+		</div>
+
+	</article>
+	<article class="dividends">
+		<h2>Дивиденды</h2>
+		<img src="img/schedule-price4.png" alt="Дивиденды">
+	
+	<div class="dividends__table">
+		<table>
+			<tr class="dividends__table-title">
+				<th>Закрытие реестра</th>
+				<th>Дивиденды</th>
+				<th>Доходность </th>
+				<th>Цена закрытия</th>
+			</tr>
+			<tr>
+				<th>17 сен 2020</th>
+				<th>21,61 <span>₽</span> </th>
+				<th>2,32 <span>%</span></th>
+				<th>Цена закрытия</th>
+			</tr>
+			<tr>
+				<th>18 июн 2020</th>
+				<th>31 <span>₽</span> </th>
+				<th>3,32 <span>%</span></th>
+				<th>Цена закрытия</th>
+			</tr>
+			<tr>
+				<th>17 сен 2020</th>
+				<th>21,61 <span>₽</span> </th>
+				<th>2,32 <span>%</span></th>
+				<th>Цена закрытия</th>
+			</tr>
+			<tr>
+				<th>18 июн 2020</th>
+				<th>31 <span>₽</span> </th>
+				<th>3,32 <span>%</span></th>
+				<th>Цена закрытия</th>
+			</tr>
+			<tr>
+				<th>17 сен 2020</th>
+				<th>21,61 <span>₽</span> </th>
+				<th>2,32 <span>%</span></th>
+				<th>Цена закрытия</th>
+			</tr>
+			<tr>
+				<th>18 июн 2020</th>
+				<th>31 <span>₽</span> </th>
+				<th>3,32 <span>%</span></th>
+				<th>Цена закрытия</th>
+			</tr>
+			<tr>
+				<th>17 сен 2020</th>
+				<th>21,61 <span>₽</span> </th>
+				<th>2,32 <span>%</span></th>
+				<th>Цена закрытия</th>
+			</tr>
+			<tr>
+				<th>18 июн 2020</th>
+				<th>31 <span>₽</span> </th>
+				<th>3,32 <span>%</span></th>
+				<th>Цена закрытия</th>
+			</tr>
+			<tr>
+				<th>17 сен 2020</th>
+				<th>21,61 <span>₽</span> </th>
+				<th>2,32 <span>%</span></th>
+				<th>Цена закрытия</th>
+			</tr>
+			<tr>
+				<th>18 июн 2020</th>
+				<th>31 <span>₽</span> </th>
+				<th>3,32 <span>%</span></th>
+				<th>Цена закрытия</th>
+			</tr>
+			<tr>
+				<th>17 сен 2020</th>
+				<th>21,61 <span>₽</span> </th>
+				<th>2,32 <span>%</span></th>
+				<th>Цена закрытия</th>
+			</tr>
+			<tr>
+				<th>18 июн 2020</th>
+				<th>31 <span>₽</span> </th>
+				<th>3,32 <span>%</span></th>
+				<th>Цена закрытия</th>
+			</tr>
+		</table>
+	</div>
+</article>
+<article class="assets">
+	<h2>Активы и Денежные потоки</h2>
+	<img src="img/schedule4.png" alt="Активы и Денежные потоки">
+<div class="assets__wrapper">
+	<div class="assets-chart__change">
+		<p class="assets-chart__change-text">Прибыль</p>
+		<p class="assets-chart__change-number"><span>-</span>14.18 <span>%</span></p></div>
+		<button class="assets-chart__change-monts">Выручка</button>
+				<button class="assets-chart__change-weeck">Долги</button>
+		<button class="assets-chart__change-day">Капитал</button>
+
+		<button class="assets-chart__change-period">EBITDA</button>
+</div>
+	</div>
+<div class="assets__wrapper-report">
+<table class="assets__wrapper-report-table">
+	<tr class="report-table">
+		<th>Отчетный период</th>
+		<th>2014 год</th>
+		<th>2015 год</th>
+		<th>2016 год</th>
+		<th>2017 год</th>
+		<th>2018 год</th>
+		<th><span>2кв – </span>2019</th>
+	</tr>
+	<tr class="report-table--block">
+		<td colspan="7">Активы</td>
+			</tr>
+	<tr class="report-table">
+		<td>Капитализация</td>
+		<td>536 726</td>
+		<td>625 734</td>
+		<td>675 034</td>
+		<td>675 034</td>
+		<td>862 013</td>
+		<td>772 879</td>
+	</tr>
+	<tr class="report-table report-table--bold">
+		<td>Капитал</td>
+		<td>536 726</td>
+		<td>625 734</td>
+		<td>675 034</td>
+		<td>675 034</td>
+		<td>862 013</td>
+		<td>772 879</td>
+	</tr>
+	<tr class="report-table">
+		<td>Капитал акционеров</td>
+		<td>536 726</td>
+		<td>625 734</td>
+		<td>675 034</td>
+		<td>675 034</td>
+		<td>862 013</td>
+		<td>772 879</td>
+	</tr>
+		<tr class="report-table report-table--notpaddig">
+		<td>Краткосрочные обязательства</td>
+		<td>536 726</td>
+		<td>625 734</td>
+		<td>675 034</td>
+		<td>675 034</td>
+		<td>862 013</td>
+		<td>772 879</td>
+	</tr>
+		<tr class="report-table report-table--notpaddig">
+		<td>Долгосрочные обязательства</td>
+		<td>536 726</td>
+		<td>625 734</td>
+		<td>675 034</td>
+		<td>675 034</td>
+		<td>862 013</td>
+		<td>772 879</td>
+	</tr>
+	<tr class="report-table report-table--bold">
+		<td>Итого обязательства</td>
+		<td>536 726</td>
+		<td>625 734</td>
+		<td>675 034</td>
+		<td>675 034</td>
+		<td>862 013</td>
+		<td>772 879</td>
+	</tr>
+	
+		<tr class="report-table">
+		<td>Кредиты и займы</td>
+		<td>536 726</td>
+		<td>625 734</td>
+		<td>675 034</td>
+		<td>675 034</td>
+		<td>862 013</td>
+		<td>772 879</td>
+	</tr>
+	
+		<tr class="report-table report-table--notpaddig">
+		<td>Денежные средства и эквиваленты</td>
+		<td>536 726</td>
+		<td>625 734</td>
+		<td>675 034</td>
+		<td>675 034</td>
+		<td>862 013</td>
+		<td>772 879</td>
+	</tr>
+	
+		<tr class="report-table">
+		<td>Чистый долг</td>
+		<td>536 726</td>
+		<td>625 734</td>
+		<td>675 034</td>
+		<td>675 034</td>
+		<td>862 013</td>
+		<td>772 879</td>
+	</tr>
+		<tr class="report-table">
+		<td>Активы</td>
+		<td>536 726</td>
+		<td>625 734</td>
+		<td>675 034</td>
+		<td>675 034</td>
+		<td>862 013</td>
+		<td>772 879</td>
+	</tr>
+		<tr class="report-table">
+		<td>Количество ао</td>
+		<td>536 726</td>
+		<td>625 734</td>
+		<td>675 034</td>
+		<td>675 034</td>
+		<td>862 013</td>
+		<td>772 879</td>
+	</tr>
+		<tr class="report-table">
+		<td>Цена ао</td>
+		<td>536 726</td>
+		<td>625 734</td>
+		<td>675 034</td>
+		<td>675 034</td>
+		<td>862 013</td>
+		<td>772 879</td>
+	</tr>
+	<tr class="report-table--block">
+		<td colspan="7">Денежные потоки</td>
+			</tr>
+				<tr class="report-table">
+		<td>Выручка</td>
+		<td>536 726</td>
+		<td>625 734</td>
+		<td>675 034</td>
+		<td>675 034</td>
+		<td>862 013</td>
+		<td>772 879</td>
+	</tr>
+				<tr class="report-table">
+		<td>Выручка</td>
+		<td>536 726</td>
+		<td>625 734</td>
+		<td>675 034</td>
+		<td>675 034</td>
+		<td>862 013</td>
+		<td>772 879</td>
+	</tr>
+				<tr class="report-table">
+		<td>Выручка</td>
+		<td>536 726</td>
+		<td>625 734</td>
+		<td>675 034</td>
+		<td>675 034</td>
+		<td>862 013</td>
+		<td>772 879</td>
+	</tr>
+				<tr class="report-table report-table--last-no-border">
+		<td>Выручка</td>
+		<td>536 726</td>
+		<td>625 734</td>
+		<td>675 034</td>
+		<td>675 034</td>
+		<td>862 013</td>
+		<td>772 879</td>
+	</tr>
+
+</table>
+ </div>
+</article>
+<article class="company-news">
+<div class="company-news__header">
+	<p>Новости компании</p>
+	<button>Смотреть все</button>
+</div>
+<p class="company-news__slogan">Как выбрать металлургические акции, на которых можно заработать</p>
+<p class="company-news__text">Металлургический гигант «Северсталь» отчитался о снижении квартальной выручки и чистой прибыли. Одно-временно компания сообщила о позитивных ожиданиях на второй квартал 2019 года и выплате рекордно больших дивидендов.Выручка металлургической компании за три месяца 2019 упала до $2,03 млн. Это на 6,5% меньше в сравнении с ... аналогичным периодом прошлого года. В компании сообщили, что причиной негативной динамики стало уменьшение цен на продукцию и падение продаж. Чистая прибыль уменьшилась на 7,2%, до $428 млрд. В пересчете на акцию прибыль составила $0,52 против $0,54 годом ранее.
+</p>
+<p class="company-news__slogan">Как выбрать металлургические акции, на которых можно заработать</p>
+<p class="company-news__text">Металлургический гигант «Северсталь» отчитался о снижении квартальной выручки и чистой прибыли. Одно-временно компания сообщила о позитивных ожиданиях на второй квартал 2019 года и выплате рекордно больших дивидендов.Выручка металлургической компании за три месяца 2019 упала до $2,03 млн. Это на 6,5% меньше в сравнении с ... аналогичным периодом прошлого года. В компании сообщили, что причиной негативной динамики стало уменьшение цен на продукцию и падение продаж. Чистая прибыль уменьшилась на 7,2%, до $428 млрд. В пересчете на акцию прибыль составила $0,52 против $0,54 годом ранее.
+</p>
+<p class="company-news__slogan">Как выбрать металлургические акции, на которых можно заработать</p>
+<p class="company-news__text">Металлургический гигант «Северсталь» отчитался о снижении квартальной выручки и чистой прибыли. Одно-временно компания сообщила о позитивных ожиданиях на второй квартал 2019 года и выплате рекордно больших дивидендов.Выручка металлургической компании за три месяца 2019 упала до $2,03 млн. Это на 6,5% меньше в сравнении с ... аналогичным периодом прошлого года. В компании сообщили, что причиной негативной динамики стало уменьшение цен на продукцию и падение продаж. Чистая прибыль уменьшилась на 7,2%, до $428 млрд. В пересчете на акцию прибыль составила $0,52 против $0,54 годом ранее.
+</p>
+<p class="company-news__slogan">Как выбрать металлургические акции, на которых можно заработать</p>
+<p class="company-news__text">Металлургический гигант «Северсталь» отчитался о снижении квартальной выручки и чистой прибыли. Одно-временно компания сообщила о позитивных ожиданиях на второй квартал 2019 года и выплате рекордно больших дивидендов.Выручка металлургической компании за три месяца 2019 упала до $2,03 млн. Это на 6,5% меньше в сравнении с ... аналогичным периодом прошлого года. В компании сообщили, что причиной негативной динамики стало уменьшение цен на продукцию и падение продаж. Чистая прибыль уменьшилась на 7,2%, до $428 млрд. В пересчете на акцию прибыль составила $0,52 против $0,54 годом ранее.
+</p>
+<p class="company-news__slogan">Как выбрать металлургические акции, на которых можно заработать</p>
+<p class="company-news__text">Металлургический гигант «Северсталь» отчитался о снижении квартальной выручки и чистой прибыли. Одно-временно компания сообщила о позитивных ожиданиях на второй квартал 2019 года и выплате рекордно больших дивидендов.Выручка металлургической компании за три месяца 2019 упала до $2,03 млн. Это на 6,5% меньше в сравнении с ... аналогичным периодом прошлого года. В компании сообщили, что причиной негативной динамики стало уменьшение цен на продукцию и падение продаж. Чистая прибыль уменьшилась на 7,2%, до $428 млрд. В пересчете на акцию прибыль составила $0,52 против $0,54 годом ранее.
+</p>
+
+
+
+
+
+
+
+
+
+
+	
+</article>
+
+</section>
+	
+
+
+
+
+
+
+
+
+
+	</main>
+	<section class="notifications-popup popup-hide" >
+		<h2>Уведомления</h2>
+		<ul class="notifications-popup__list">
+		
+			<li class="notifications-popup__list-item">
+				<img class="list-item__img" src="img/ava-notification.jpg" width="36" height="36" alt="avatar">
+				<p class="list-item">Артемий Друзь <span>оставил коментарий:
+			</span></p>
+		<p class="list-item__article">
+Отличная статья, спасибо вам за ваш труд. Продолжайте... </p>
+				<p class="list-item__footer">
+					3 часа назад на Вашу запись: <span>Начало заголовка записи ... </span>
+				</p>
+</li>
+
+	<li class="notifications-popup__list-item">
+				<img class="list-item__img" src="img/ava-notification-2.jpg" width="36" height="36" alt="avatar">
+				<p class="list-item">Иван Васильев <span>и ещё 50 человек оценили вашу запись: 
+
+			</span></p>
+		<p class="list-item__article--assessment">Что такое дивиденды, когда, сколько и как их можно
+ </p>
+				<p class="list-item__footer">
+					3 часа назад
+				</p>
+</li>
+
+	<li class="notifications-popup__list-item">
+				<img class="list-item__img" src="img/ava-notification.jpg" width="36" height="36" alt="avatar">
+				<p class="list-item">Артемий Друзь <span>оставил коментарий:
+			</span></p>
+		<p class="list-item__article">
+Отличная статья, спасибо вам за ваш труд. Продолжайте... </p>
+				<p class="list-item__footer">
+					3 часа назад на Вашу запись: <span>Начало заголовка записи ... </span>
+				</p>
+</li>
+
+	<li class="notifications-popup__list-item">
+				<img class="list-item__img" src="img/ava-notification-2.jpg" width="36" height="36" alt="avatar">
+				<p class="list-item">Иван Васильев <span>и ещё 50 человек оценили вашу запись: 
+
+			</span></p>
+		<p class="list-item__article--assessment">Что такое дивиденды, когда, сколько и как их можно
+ </p>
+				<p class="list-item__footer">
+					3 часа назад
+				</p>
+</li>
+
+
+	<li class="notifications-popup__list-item">
+				<img class="list-item__img" src="img/ava-notification.jpg" width="36" height="36" alt="avatar">
+				<p class="list-item">Артемий Друзь <span>оставил коментарий:
+			</span></p>
+		<p class="list-item__article">
+Отличная статья, спасибо вам за ваш труд. Продолжайте... </p>
+				<p class="list-item__footer">
+					3 часа назад на Вашу запись: <span>Начало заголовка записи ... </span>
+				</p>
+</li>
+</ul>
+	</section>
+	<section class="profile-menu-popup popup-hide">
+		<ul class="profile-menu-popup-items">
+			<li class="profile-menu-popup-item">Мой портфель</li>
+			<li class="profile-menu-popup-item">Портфель</li>
+			<li class="profile-menu-popup-item">Сообщения - <span>2</span></li>
+			<li class="profile-menu-popup-item">Редактирование профиля</li>
+			<li class="profile-menu-popup-item">Настройки</li>
+			<li class="profile-menu-popup-item profile-menu-popup-item--line"></li>
+			<li class="profile-menu-popup-item">Выход</li>
+		</ul>
+		
+	</section>
+
+   
+	<script src="js/script.js"></script>
+</body>
+</html>

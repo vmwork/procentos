@@ -1,0 +1,39 @@
+.another-user-menu__user-portfolio {
+  width: 300px;
+  min-height: 310px;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 1px 5px 0 rgba(55, 125, 42, 0.27);
+          box-shadow: 1px 1px 5px 0 rgba(55, 125, 42, 0.27);
+  border: solid 1px rgba(55, 125, 42, 0.27);
+  background-color: #ffffff;
+  padding: 0 15px 0 15px; }
+
+.another-user-menu__user-portfolio h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #463b3b; }
+
+.another-user-menu__user-portfolio img {
+  margin: 0 auto;
+  display: block; }
+
+.another-user-menu__user-spy-portfolio {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.22;
+  color: #463b3b; }
+
+.another-user-menu__user-statistic-portfolio {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  line-height: 1.27;
+  text-align: center;
+  color: #463b3b; }

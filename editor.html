@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8">
+	<title>Процентос</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/visually-hidden.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main-header.css">
+	<link rel="stylesheet" href="css/profile-nav.css">
+	<link rel="stylesheet" href="css/profile_aside-nav.css">
+
+
+	<link rel="stylesheet" href="css/editor__category.css">
+	<link rel="stylesheet" href="css/editor__text.css">
+
+
+
+	<link rel="stylesheet" href="css/notifications-popup.css">
+	<link rel="stylesheet" href="css/profile-menu-popup.css">
+	<link rel="stylesheet" href="css/editor-category.css">
+	</head>
+<body>
+	<header class="main-header">
+		<div class="main-header-wrapper">
+		<h1 class="visually-hidden">Шапка сайта</h1>
+		<a href="#" class="main-header__logo">
+		<img src="img/logo-black.png" width="216" height="28" alt="Процентос" class="main-header__logo-image">
+		</a>
+		<form action="php.php" method="get" class="main-header__form">
+		<input name="search" type="search" placeholder="Поиск" class="main-header__form-input">
+	 <button type="submit"  class="main-header__form-button"></button> </form>
+	<nav class="main-nav">
+		<h2 class="visually-hidden">Панель навигации</h2>
+	<button class="main-header__notification" type="button"><img src="img/message.svg" alt="Уведомления">
+	</button>
+	<button class="main-header__write-message">Написать</button>
+	<div class="main-nav__profile">
+	<img src="img/ava.jpg" alt="Профайл">
+<button class="main-nav__profile-button" type="button"><img src="img/ava_row.svg" alt="Открыть навигацию"></button>
+</div>
+	</nav>
+	</div>
+	</header>
+	<main class="main">
+
+	
+	<h2 class="visually-hidden">Основной контент</h2>
+
+	<nav class="aside-nav">
+		<h2 class="visually-hidden">Меню пользователя</h2>
+			<button type="button" class="aside-nav__hide-menu--closed"></button>
+
+		<ul class="aside-nav__menu hide">
+
+			<li class="menu-item"><a href="#">Мой профиль</a></li>
+<li class="menu-item"><a href="#">Сообщения<span> - </span><span class="menu-item--color">99</span>		</a></li>
+<li class="menu-item"><a href="#">Подписки<span> - </span><span class="menu-item--color">99</span>		</a></li>
+			<li class="menu-item"><a href="#">Лучшие</a></li>
+			<li class="menu-item"><a href="#">Свежие<span> - </span><span class="menu-item--color">78</span>		</a></li>
+			<li class="menu-item"><a href="#">Пользователи</a></li>
+			<li class="menu-item menu-item--line"></li>
+			<li class="menu-item"><a href="#">Новости</a></li>
+			<li class="menu-item"><a href="#">Компании</a></li>
+			<li class="menu-item"><a href="#">Дивиденды</a></li>
+			<li class="menu-item"><a href="#">Сравнение</a></li>
+			<li class="menu-item "><a href="#">Рейтинги</a></li>
+			<li class="menu-item menu-item--line"></li>
+			<li class="menu-item "><a href="#">Книги</a></li>
+			<li class="menu-item"><a href="#">Обзоры книг</a></li>
+		</ul>
+	</nav>
+
+<section class="editor">
+	<h2 class="visually-hidden">Страница публикации текстов</h2>
+	<div class="editor__category">
+
+	<div class="editor__category-wrapper">
+
+
+  <p class="editor__category-select">Выберите категорию</p>
+	<img src="img/ava_row.svg" alt="arrow">
+	</div>
+
+
+<div class="editor__category-wrapper">
+
+	<button class="editor__category-public">Опубликовать
+	</button>
+
+	<button class="editor__category-save">
+		<img src="img/save.svg" alt="сохранить">
+	</button>
+</div>
+
+
+	</div>
+	<div class="editor__text">
+		<p class="editor__name">Ксения Сименизанова</p>
+		<p class="editor__title">Заголовок</p>
+		<form class="editor__form" action="textarea1.php" method="post">
+        <p><textarea  name="text" placeholder="Напиши свою первую запись....."></textarea></p>
+    
+  </form>
+	</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</main>
+	<section class="notifications-popup popup-hide" >
+		<h2>Уведомления</h2>
+		<ul class="notifications-popup__list">
+		
+			<li class="notifications-popup__list-item">
+				<img class="list-item__img" src="img/ava-notification.jpg" width="36" height="36" alt="avatar">
+				<p class="list-item">Артемий Друзь <span>оставил коментарий:
+			</span></p>
+		<p class="list-item__article">
+Отличная статья, спасибо вам за ваш труд. Продолжайте... </p>
+				<p class="list-item__footer">
+					3 часа назад на Вашу запись: <span>Начало заголовка записи ... </span>
+				</p>
+</li>
+
+	<li class="notifications-popup__list-item">
+				<img class="list-item__img" src="img/ava-notification-2.jpg" width="36" height="36" alt="avatar">
+				<p class="list-item">Иван Васильев <span>и ещё 50 человек оценили вашу запись: 
+
+			</span></p>
+		<p class="list-item__article--assessment">Что такое дивиденды, когда, сколько и как их можно
+ </p>
+				<p class="list-item__footer">
+					3 часа назад
+				</p>
+</li>
+
+	<li class="notifications-popup__list-item">
+				<img class="list-item__img" src="img/ava-notification.jpg" width="36" height="36" alt="avatar">
+				<p class="list-item">Артемий Друзь <span>оставил коментарий:
+			</span></p>
+		<p class="list-item__article">
+Отличная статья, спасибо вам за ваш труд. Продолжайте... </p>
+				<p class="list-item__footer">
+					3 часа назад на Вашу запись: <span>Начало заголовка записи ... </span>
+				</p>
+</li>
+
+	<li class="notifications-popup__list-item">
+				<img class="list-item__img" src="img/ava-notification-2.jpg" width="36" height="36" alt="avatar">
+				<p class="list-item">Иван Васильев <span>и ещё 50 человек оценили вашу запись: 
+
+			</span></p>
+		<p class="list-item__article--assessment">Что такое дивиденды, когда, сколько и как их можно
+ </p>
+				<p class="list-item__footer">
+					3 часа назад
+				</p>
+</li>
+
+
+	<li class="notifications-popup__list-item">
+				<img class="list-item__img" src="img/ava-notification.jpg" width="36" height="36" alt="avatar">
+				<p class="list-item">Артемий Друзь <span>оставил коментарий:
+			</span></p>
+		<p class="list-item__article">
+Отличная статья, спасибо вам за ваш труд. Продолжайте... </p>
+				<p class="list-item__footer">
+					3 часа назад на Вашу запись: <span>Начало заголовка записи ... </span>
+				</p>
+</li>
+</ul>
+	</section>
+	<section class="profile-menu-popup popup-hide">
+		<ul class="profile-menu-popup-items">
+			<li class="profile-menu-popup-item">Мой портфель</li>
+			<li class="profile-menu-popup-item">Портфель</li>
+			<li class="profile-menu-popup-item">Сообщения - <span>2</span></li>
+			<li class="profile-menu-popup-item">Редактирование профиля</li>
+			<li class="profile-menu-popup-item">Настройки</li>
+			<li class="profile-menu-popup-item profile-menu-popup-item--line"></li>
+			<li class="profile-menu-popup-item">Выход</li>
+		</ul>
+		
+	</section>
+
+<section class="editor-category hidemenu">
+	<ul class="editor-category__items">
+		<li class="editor-category__item">Личный опыт</li>
+		<li class="editor-category__item">Инвестиции</li>
+		<li class="editor-category__item">Финансы</li>
+		<li class="editor-category__item">Обзоры книг</li>
+		<li class="editor-category__item">Новости</li>
+		<li class="editor-category__item editor-category__item--line"></li>
+		<li class="editor-category__item">В раздел ресурсы</li>
+	</ul>
+</section>
+	<script src="js/scriptEdithor.js"></script>
+</body>
+</html>

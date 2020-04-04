@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Google" width="17.782" height="17.782" viewBox="0 0 17.782 17.782">
+    <defs>
+        <style>
+            .cls-1{fill:#ffc107}.cls-2{fill:#ff3d00}.cls-3{fill:#4caf50}.cls-4{fill:#1976d2}
+        </style>
+    </defs>
+    <path id="Path_80" d="M21.609 11.149h-.716v-.036h-8v3.556h5.026a5.341 5.341 0 1 1-1.489-5.761l2.515-2.515a8.866 8.866 0 1 0 2.664 4.756z" class="cls-1" data-name="Path 80" transform="translate(-4 -4)"/>
+    <path id="Path_81" d="M6.3 8.753L9.227 10.9a5.322 5.322 0 0 1 8.483-1.992l2.515-2.515A8.873 8.873 0 0 0 6.3 8.753z" class="cls-2" data-name="Path 81" transform="translate(-5.28 -4)"/>
+    <path id="Path_82" d="M14.11 35.143a8.855 8.855 0 0 0 5.961-2.308l-2.751-2.328a5.321 5.321 0 0 1-8.22-2.452l-2.9 2.233a8.884 8.884 0 0 0 7.91 4.855z" class="cls-3" data-name="Path 82" transform="translate(-5.219 -17.361)"/>
+    <path id="Path_83" d="M32.718 20.036H32V20h-8v3.556h5.026a5.359 5.359 0 0 1-1.818 2.476l2.752 2.329a8.607 8.607 0 0 0 2.93-6.583 8.9 8.9 0 0 0-.172-1.742z" class="cls-4" data-name="Path 83" transform="translate(-15.109 -12.887)"/>
+</svg>

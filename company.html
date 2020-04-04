@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"> 
+	<title>Процентос</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/visually-hidden.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main-header.css">
+	<link rel="stylesheet" href="css/profile-nav.css">
+	<link rel="stylesheet" href="css/profile_aside-nav.css">
+
+
+	<link rel="stylesheet" href="css/subscriptions-header-company.css">
+	<link rel="stylesheet" href="css/company.css">
+	<link rel="stylesheet" href="css/usermenu2.css">	
+
+
+	<link rel="stylesheet" href="css/profile_usermenu2.css">
+	<link rel="stylesheet" href="css/company-popup.css">
+
+
+
+
+	<link rel="stylesheet" href="css/notifications-popup.css">
+	<link rel="stylesheet" href="css/profile-menu-popup.css">
+	</head>
+<body>
+	<header class="main-header">
+		<div class="main-header-wrapper">
+		<h1 class="visually-hidden">Шапка сайта</h1>
+		<a href="#" class="main-header__logo">
+		<img src="img/logo-black.png" width="216" height="28" alt="Процентос" class="main-header__logo-image">
+		</a>
+		<form action="php.php" method="get" class="main-header__form">
+		<input name="search" type="search" placeholder="Поиск" class="main-header__form-input">
+	 <button type="submit"  class="main-header__form-button"></button> </form>
+	<nav class="main-nav">
+		<h2 class="visually-hidden">Панель навигации</h2>
+	<button class="main-header__notification" type="button"><img src="img/message.svg" alt="Уведомления">
+	</button>
+	<button class="main-header__write-message">Написать</button>
+	<div class="main-nav__profile">
+	<img src="img/ava.jpg" alt="Профайл">
+<button class="main-nav__profile-button" type="button"><img src="img/ava_row.svg" alt="Открыть навигацию"></button>
+</div>
+	</nav>
+	</div>
+	</header>
+	<main class="main">
+
+	
+	<h2 class="visually-hidden">Основной контент</h2>
+
+	<nav class="aside-nav">
+		<h2 class="visually-hidden">Меню пользователя</h2>
+			<button type="button" class="aside-nav__hide-menu--closed"></button>
+
+		<ul class="aside-nav__menu hide">
+
+			<li class="menu-item"><a href="#">Мой профиль</a></li>
+<li class="menu-item"><a href="#">Сообщения<span> - </span><span class="menu-item--color">99</span>		</a></li>
+<li class="menu-item"><a href="#">Подписки<span> - </span><span class="menu-item--color">99</span>		</a></li>
+			<li class="menu-item"><a href="#">Лучшие</a></li>
+			<li class="menu-item"><a href="#">Свежие<span> - </span><span class="menu-item--color">78</span>		</a></li>
+			<li class="menu-item"><a href="#">Пользователи</a></li>
+			<li class="menu-item menu-item--line"></li>
+			<li class="menu-item"><a href="#">Новости</a></li>
+			<li class="menu-item"><a href="#">Компании</a></li>
+			<li class="menu-item"><a href="#">Дивиденды</a></li>
+			<li class="menu-item"><a href="#">Сравнение</a></li>
+			<li class="menu-item "><a href="#">Рейтинги</a></li>
+			<li class="menu-item menu-item--line"></li>
+			<li class="menu-item "><a href="#">Книги</a></li>
+			<li class="menu-item"><a href="#">Обзоры книг</a></li>
+		</ul>
+	</nav>
+
+<section class="subscriptions">
+
+	<div class="subscriptions-header-company">
+		<p class="subscriptions-header-subscriptions-company">Компании
+			<img src="img/ava_row.svg" alt="стрелка" class="subscriptions-header-subscriptions-company--arrow">
+		</p>
+
+
+		<form action="php.php" method="get" class="subscriptions__form">
+		<input name="search" type="search" placeholder="Поиск" class="subscriptions__form-input">
+	 <button type="submit"  class="subscriptions__form-button"></button> </form>
+
+	</div>
+
+
+	<div class="companys">
+		<ul class="companys-list">
+			<li class="company">
+				<div class="company__wrapper">
+				<img src="img/ratailgroup.jpg" alt="company" width="72" height="72">
+				<p class="company__name">X5 Retail Group</p>
+				<p class="company__nic-name">FIVE</p>
+				</div>
+				<button class="company__button">Подписаться</button>
+			</li>
+
+			<li class="company__line"></li>
+
+			<li class="company">
+				<div class="company__wrapper">
+				<img src="img/sevestal.jpg" alt="company" width="72" height="72">
+				<p class="company__name">Северсталь</p>
+				<p class="company__nic-name">CHMF</p>
+				</div>
+				<button class="company__button company__button--grey">Отписаться</button>
+			</li>
+				<li class="company__line"></li>
+					<li class="company">
+				<div class="company__wrapper">
+				<img src="img/ratailgroup.jpg" alt="company" width="72" height="72">
+				<p class="company__name">X5 Retail Group</p>
+				<p class="company__nic-name">FIVE</p>
+				</div>
+				<button class="company__button">Подписаться</button>
+			</li>
+
+			<li class="company__line"></li>
+
+			<li class="company">
+				<div class="company__wrapper">
+				<img src="img/sevestal.jpg" alt="company" width="72" height="72">
+				<p class="company__name">Северсталь</p>
+				<p class="company__nic-name">CHMF</p>
+				</div>
+				<button class="company__button company__button--grey">Отписаться</button>
+			</li>
+				<li class="company__line"></li>
+					<li class="company">
+				<div class="company__wrapper">
+				<img src="img/ratailgroup.jpg" alt="company" width="72" height="72">
+				<p class="company__name">X5 Retail Group</p>
+				<p class="company__nic-name">FIVE</p>
+				</div>
+				<button class="company__button">Подписаться</button>
+			</li>
+
+			<li class="company__line"></li>
+
+			<li class="company">
+				<div class="company__wrapper">
+				<img src="img/sevestal.jpg" alt="company" width="72" height="72">
+				<p class="company__name">Северсталь</p>
+				<p class="company__nic-name">CHMF</p>
+				</div>
+				<button class="company__button company__button--grey">Отписаться</button>
+			</li>
+				<li class="company__line"></li>
+					<li class="company">
+				<div class="company__wrapper">
+				<img src="img/ratailgroup.jpg" alt="company" width="72" height="72">
+				<p class="company__name">X5 Retail Group</p>
+				<p class="company__nic-name">FIVE</p>
+				</div>
+				<button class="company__button">Подписаться</button>
+			</li>
+
+			<li class="company__line"></li>
+
+			<li class="company">
+				<div class="company__wrapper">
+				<img src="img/sevestal.jpg" alt="company" width="72" height="72">
+				<p class="company__name">Северсталь</p>
+				<p class="company__nic-name">CHMF</p>
+				</div>
+				<button class="company__button company__button--grey">Отписаться</button>
+			</li>
+				<li class="company__line"></li>
+					<li class="company">
+				<div class="company__wrapper">
+				<img src="img/ratailgroup.jpg" alt="company" width="72" height="72">
+				<p class="company__name">X5 Retail Group</p>
+				<p class="company__nic-name">FIVE</p>
+				</div>
+				<button class="company__button">Подписаться</button>
+			</li>
+
+			<li class="company__line"></li>
+
+			<li class="company">
+				<div class="company__wrapper">
+				<img src="img/sevestal.jpg" alt="company" width="72" height="72">
+				<p class="company__name">Северсталь</p>
+				<p class="company__nic-name">CHMF</p>
+				</div>
+				<button class="company__button company__button--grey">Отписаться</button>
+			</li>
+				<li class="company__line"></li>
+					<li class="company">
+				<div class="company__wrapper">
+				<img src="img/ratailgroup.jpg" alt="company" width="72" height="72">
+				<p class="company__name">X5 Retail Group</p>
+				<p class="company__nic-name">FIVE</p>
+				</div>
+				<button class="company__button">Подписаться</button>
+			</li>
+
+			<li class="company__line"></li>
+
+			<li class="company">
+				<div class="company__wrapper">
+				<img src="img/sevestal.jpg" alt="company" width="72" height="72">
+				<p class="company__name">Северсталь</p>
+				<p class="company__nic-name">CHMF</p>
+				</div>
+				<button class="company__button company__button--grey">Отписаться</button>
+			</li>
+				<li class="company__line"></li>
+			
+
+		
+		</ul>
+
+
+
+
+
+	</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+	
+<section class="user-menu">
+<h2 class="visually-hidden">Панель управления пользователя</h2>
+
+<div class="user-menu__wrapper ">
+		<img src="img/ava2.jpg" alt="Avatar user" class="user-menu__avatar" width="72" height="72">
+	<div>
+		<p class="user-menu__user-name">Ксения Семинизанова</p>
+				<p class="user-menu__user-login">@superksu</p>
+
+
+	</div>
+		
+
+		</div>
+<table class="user-menu__infomation">
+	<tr>
+		<th>0<br> <p>Подписчиков</p></th>
+		<th class="user-menu__infomation-color">Сейчас <br>Online</th>
+		<th></th>
+	</tr>
+	<tr>
+		<th>1<br><p>Публикаций</p></th>
+		<th>0<br><p>Рейтинг</p></th>
+		<th>0<br><p>Подписки</p></th>
+	</tr>
+</table>
+<ul class="user-menu__about-user">
+	<li class="user-menu__about-user-item"><p class="about-user-item__color">О себе</p></li>
+	<li class="user-menu__about-user-item"><p>Мир ловил меня, но не поймал</p></li>
+	<li class="user-menu__about-user-item"><p>Предложения по интервью,тв,кино: </p><a href="tel:+7903722545456">+7903-722-454556</a></li>
+	<li class="user-menu__about-user-item"><p>Комерческий директор:</p><a href="tel:+79637814919">+7963-781-4919</a> Кирилл<p>ПРЕМЬЕРА</p></li>
+</ul>
+<nav class="user-menu__nav">
+
+	<ul class="user-menu__nav-items">
+		<li class="user-menu__nav-item nav-item--color">Сайт: <a href="https://procentos.ru/">Procentos.ru</a></li>
+
+		<li class="user-menu__nav-item nav-item-line"></li>
+		<li class="user-menu__nav-item"><a href="#">Редактировать профиль</a></li>
+		<li class="user-menu__nav-item"><a href="#">Сохранить</a></li>
+		<li class="user-menu__nav-item nav-item-line nav-item-line"></li>
+		<li class="user-menu__nav-item"><a href="#">Написать запись</a></li>
+		<li class="user-menu__nav-item"><a href="#">Черновики</a> </li>
+		<li class="user-menu__nav-item"><a href="#">Сообщения</a></li>
+		<li class="user-menu__nav-item"><a href="#">Сохранения</a></li>
+		<li class="user-menu__nav-item"><a href="#">Портфель</a></li>
+		<li class="user-menu__nav-item"><a href="#">Настройки</a></li>
+		<li class="user-menu__nav-item"><a href="#">Выход</a> </li>
+	</ul>
+</nav>
+</div>
+
+
+
+	<section class="user-menu__portfolio">
+		<h2 class="user-menu__portfolio-slogan">Ваш портфель</h2>
+		<img src="img/schedule.jpg" alt="График">
+		<table class="schedule">
+			<tr class="schedule__first-line">
+				<th>123 690,8 <span> ₽</span>	 </th>
+				<th class="schedule__first-line--color"><span>+ </span>6.02<span>%</span></th>
+			</tr>
+			<tr class="schedule__second-line">
+				<th>Капитал в акциях сегодня | 18:49  </th>
+				<th>Доходность за все время </th>
+			</tr>
+		</table>
+
+	</section>
+	</section>
+
+
+
+
+	</main>
+	<section class="notifications-popup popup-hide" >
+		<h2>Уведомления</h2>
+		<ul class="notifications-popup__list">
+		
+			<li class="notifications-popup__list-item">
+				<img class="list-item__img" src="img/ava-notification.jpg" width="36" height="36" alt="avatar">
+				<p class="list-item">Артемий Друзь <span>оставил коментарий:
+			</span></p>
+		<p class="list-item__article">
+Отличная статья, спасибо вам за ваш труд. Продолжайте... </p>
+				<p class="list-item__footer">
+					3 часа назад на Вашу запись: <span>Начало заголовка записи ... </span>
+				</p>
+</li>
+
+	<li class="notifications-popup__list-item">
+				<img class="list-item__img" src="img/ava-notification-2.jpg" width="36" height="36" alt="avatar">
+				<p class="list-item">Иван Васильев <span>и ещё 50 человек оценили вашу запись: 
+
+			</span></p>
+		<p class="list-item__article--assessment">Что такое дивиденды, когда, сколько и как их можно
+ </p>
+				<p class="list-item__footer">
+					3 часа назад
+				</p>
+</li>
+
+	<li class="notifications-popup__list-item">
+				<img class="list-item__img" src="img/ava-notification.jpg" width="36" height="36" alt="avatar">
+				<p class="list-item">Артемий Друзь <span>оставил коментарий:
+			</span></p>
+		<p class="list-item__article">
+Отличная статья, спасибо вам за ваш труд. Продолжайте... </p>
+				<p class="list-item__footer">
+					3 часа назад на Вашу запись: <span>Начало заголовка записи ... </span>
+				</p>
+</li>
+
+	<li class="notifications-popup__list-item">
+				<img class="list-item__img" src="img/ava-notification-2.jpg" width="36" height="36" alt="avatar">
+				<p class="list-item">Иван Васильев <span>и ещё 50 человек оценили вашу запись: 
+
+			</span></p>
+		<p class="list-item__article--assessment">Что такое дивиденды, когда, сколько и как их можно
+ </p>
+				<p class="list-item__footer">
+					3 часа назад
+				</p>
+</li>
+
+
+	<li class="notifications-popup__list-item">
+				<img class="list-item__img" src="img/ava-notification.jpg" width="36" height="36" alt="avatar">
+				<p class="list-item">Артемий Друзь <span>оставил коментарий:
+			</span></p>
+		<p class="list-item__article">
+Отличная статья, спасибо вам за ваш труд. Продолжайте... </p>
+				<p class="list-item__footer">
+					3 часа назад на Вашу запись: <span>Начало заголовка записи ... </span>
+				</p>
+</li>
+</ul>
+	</section>
+	<section class="profile-menu-popup popup-hide">
+		<ul class="profile-menu-popup-items">
+			<li class="profile-menu-popup-item">Мой портфель</li>
+			<li class="profile-menu-popup-item">Портфель</li>
+			<li class="profile-menu-popup-item">Сообщения - <span>2</span></li>
+			<li class="profile-menu-popup-item">Редактирование профиля</li>
+			<li class="profile-menu-popup-item">Настройки</li>
+			<li class="profile-menu-popup-item profile-menu-popup-item--line"></li>
+			<li class="profile-menu-popup-item">Выход</li>
+		</ul>
+		
+	</section>
+	<section class="company-popup hidemenu">
+		<ul class="company-popup-list">
+			<li class="company-popup-item">Российские</li>
+			<li class="company-popup-item">Американские</li>
+			<li class="company-popup-item company-popup-item--line"></li>
+			<li class="company-popup-item">Все компании</li>
+		</ul>
+	</section>
+	<script src="js/scriptCompany.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <style>
+            .cls-1{fill:#377d2a}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#90918f}
+        </style>
+        <clipPath id="clip-path">
+            <path id="Rectangle_2" d="M0 0h36v36H0z" class="cls-1" data-name="Rectangle 2"/>
+        </clipPath>
+    </defs>
+    <g id="Mask_Group_23" class="cls-2" data-name="Mask Group 23">
+        <path id="edit" d="M36.19 20a1.8 1.8 0 0 0-1.8 1.8v10.8a1.8 1.8 0 0 1-1.8 1.8H7.4a1.8 1.8 0 0 1-1.8-1.8V7.4a1.8 1.8 0 0 1 1.8-1.8h10.8a1.8 1.8 0 1 0 0-3.6H7.4A5.4 5.4 0 0 0 2 7.4v25.2A5.4 5.4 0 0 0 7.4 38h25.191a5.4 5.4 0 0 0 5.4-5.4V21.8A1.8 1.8 0 0 0 36.19 20zM9.2 21.366V29a1.8 1.8 0 0 0 1.8 1.8h7.63a1.8 1.8 0 0 0 1.278-.522L32.357 17.8l5.111-5a1.8 1.8 0 0 0 0-2.555l-7.63-7.72a1.8 1.8 0 0 0-2.555 0l-5.075 5.093L9.719 20.089a1.8 1.8 0 0 0-.519 1.277zM28.56 6.341l5.093 5.093-2.553 2.555L26 8.9zM12.8 22.1l10.667-10.667 5.093 5.093L17.889 27.2H12.8z" class="cls-3" transform="translate(-1.999 -1.994)"/>
+    </g>
+</svg>

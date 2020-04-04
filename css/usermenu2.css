@@ -1,0 +1,138 @@
+.user-menu {
+  display: none; }
+
+@media only screen and (min-width: 1439px) {
+  .user-menu {
+    min-width: 300px;
+    display: block;
+    margin: 0 11% 0 0;
+    -webkit-box-shadow: 1px 1px 5px 0 rgba(55, 125, 42, 0.27);
+            box-shadow: 1px 1px 5px 0 rgba(55, 125, 42, 0.27);
+    border-radius: 15px;
+    border: 1px solid rgba(55, 125, 42, 0.27);
+    background-color: #ffffff; }
+  .user-menu--comein {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    margin-left: 40px;
+    color: #ffffff;
+    width: 220px;
+    height: 28px;
+    border-radius: 5px;
+    border: solid 1px rgba(55, 125, 42, 0.17);
+    background-color: #377d2a;
+    z-index: 2; }
+  .user-menu--comein-slogan {
+    position: absolute;
+    top: 60%;
+    right: 0;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-top: 9px;
+    width: 300px;
+    height: 74px;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color: #463b3b;
+    z-index: 3;
+    background-color: rgba(55, 125, 42, 0.27); }
+  .user-menu--comein-slogan span {
+    color: #377d2a;
+    font-weight: 600; }
+  .user-menu__wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  .user-menu__avatar {
+    display: block;
+    margin: 15px 15px 0 15px; }
+  .user-menu__user-name {
+    width: 139px;
+    height: 38px;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.27;
+    text-align: left;
+    color: #463b3b; }
+  .user-menu__user-login {
+    width: 87px;
+    height: 19px;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.27;
+    text-align: left;
+    color: #377d2a; }
+  .user-menu__infomation {
+    margin: 0 0 0 15px; }
+  .user-menu__infomation th:first-child {
+    padding-left: 0; }
+  .user-menu__infomation th {
+    color: #463b3b;
+    text-align: left;
+    padding-bottom: 15px;
+    padding-left: 15px; }
+  .user-menu__infomation th p {
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #90918f;
+    margin: 0; }
+  .user-menu__infomation .user-menu__infomation-color {
+    font-size: 15px;
+    font-weight: 400;
+    color: #377d2a;
+    padding-left: 15px; }
+  .user-menu__about-user,
+  .user-menu__nav-items {
+    list-style: none;
+    padding: 0;
+    padding-left: 15px; }
+  .user-menu__about-user {
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    line-height: 1.27;
+    text-align: left;
+    color: #463b3b;
+    margin-top: 0; }
+  .user-menu__about-user p {
+    margin: 0;
+    font-size: 18px; }
+  .about-user-item__color {
+    padding: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #463b3b; }
+  .user-menu__nav-item a {
+    color: #463b3b; }
+  .user-menu__nav-item {
+    margin-bottom: 10px;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.27;
+    text-align: left;
+    color: #463b3b; }
+  .nav-item-line {
+    padding: 0;
+    height: 1px;
+    width: 90%;
+    background-color: #377d2a; }
+  .nav-item--color a {
+    color: #377d2a; } }
+
+@media only screen and (min-width: 1919px) {
+  .user-menu {
+    margin: 0 20% 0 0; } }

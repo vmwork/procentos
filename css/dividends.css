@@ -1,0 +1,59 @@
+.dividends {
+  width: 968px;
+  height: 859px;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 1px 5px 0 rgba(55, 125, 42, 0.27);
+          box-shadow: 1px 1px 5px 0 rgba(55, 125, 42, 0.27);
+  border: solid 1px rgba(55, 125, 42, 0.27);
+  background-color: #f2f3f3;
+  margin-top: 25px;
+  padding: 15px; }
+
+.dividends h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.27;
+  text-align: left;
+  color: #377d2a; }
+
+.dividends__table {
+  width: 918px;
+  height: 430px;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 1px 5px 0 rgba(55, 125, 42, 0.27);
+          box-shadow: 1px 1px 5px 0 rgba(55, 125, 42, 0.27);
+  border: solid 1px rgba(55, 125, 42, 0.27);
+  background-color: #f2f3f3;
+  overflow-y: scroll; }
+
+.dividends__table::-webkit-scrollbar-thumb {
+  width: 8px;
+  background-image: -webkit-linear-gradient(#F5F5F5, #8A8A8A); }
+
+.dividends__table table {
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.27;
+  text-align: left;
+  color: #463b3b;
+  margin: 15px 0;
+  border-collapse: collapse; }
+
+.dividends__table th {
+  width: 230px;
+  font-weight: 400;
+  height: 42px;
+  padding-left: 25px;
+  border-bottom: solid 1px rgba(55, 125, 42, 0.27); }
+
+.dividends__table tr:hover {
+  background-color: rgba(55, 125, 42, 0.27); }
+
+.dividends__table-title th {
+  font-size: 18px;
+  font-weight: 600; }
+
+.dividends__table .dividends__table-title:hover {
+  background-color: #f2f3f3; }

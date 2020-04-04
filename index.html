@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8">
+	<title>Процентос</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/visually-hidden.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main-header.css">
+	<link rel="stylesheet" href="css/main-nav.css">
+	<link rel="stylesheet" href="css/aside-nav.css">
+	<link rel="stylesheet" href="css/best-posts.css">
+	<link rel="stylesheet" href="css/usermenu.css">
+	</head>
+<body>
+	<header class="main-header">
+			<div class="main-header-wrapper">
+		<h1 class="visually-hidden">Шапка сайта</h1>
+		<a href="#" class="main-header__logo">
+		<img src="img/logo-black.png" width="216" height="28" alt="Процентос" class="main-header__logo-image">
+		</a>
+		<form action="php.php" method="get" class="main-header__form">
+		<input name="search" type="search" placeholder="Поиск" class="main-header__form-input">
+	 <button type="submit"  class="main-header__form-button"></button> </form>
+	<nav class="main-nav">
+		<h2 class="visually-hidden">Панель навигации</h2>
+	<button class="main-header__notification" type="button"><img src="img/message.svg" alt="Уведомления">
+	</button>
+	<button class="main-header__write-message">Написать</button>
+	<button class="main-header__profile" type="button">
+	<img src="img/profile.svg" alt="Профайл">	
+	</button>
+	</nav>
+</div>
+	</header>
+	<main class="main">
+	<h2 class="visually-hidden">Основной контент</h2>
+
+	<nav class="aside-nav">
+		<h2 class="visually-hidden">Меню пользователя</h2>
+		<button type="button" class="aside-nav__hide-menu--mobile-mod">Войти</button>
+		<button type="button" class="aside-nav__hide-menu--closed"></button>
+
+
+		<ul class="aside-nav__menu hide">
+
+			<li class="menu-item"><a href="#">Мой профиль</a></li>
+
+			<li class="menu-item"><a href="#">Лучшие</a></li>
+			<li class="menu-item"><a href="#">Свежие<span> - </span><span class="menu-item--color">78</span>		</a></li>
+			<li class="menu-item"><a href="#">Пользователи</a></li>
+			<li class="menu-item menu-item--line"></li>
+			<li class="menu-item"><a href="#">Новости</a></li>
+			<li class="menu-item"><a href="#">Компании</a></li>
+			<li class="menu-item"><a href="#">Дивиденды</a></li>
+			<li class="menu-item"><a href="#">Сравнение</a></li>
+			<li class="menu-item "><a href="#">Рейтинги</a></li>
+			<li class="menu-item menu-item--line"></li>
+			<li class="menu-item "><a href="#">Книги</a></li>
+			<li class="menu-item"><a href="#">Обзоры книг</a></li>
+		</ul>
+	</nav>
+	<section class="best-posts">
+		<div class="best-posts__wrapper">
+		<p class="best-posts__auhor-img"><img src="img/ava.jpg" alt="vatar"></p>
+		<div class="best-posts__block-wrapper">
+		<p class="best-posts__author">Дмитрий Ким</p>
+		 <time datetime="2019-09-24" class="best-posts__date">24.09.2019</time>
+		 </div>
+		 <h2 class="best-posts__heading">Лучшие посты</h2>
+		 <img src="img/post.jpg" alt="Изображение записи" width="616" height="250" class="best-posts__img">
+		 <p class="best-posts__author-text">На этой странице вы выводим лучшие посты за неделю. 
+Текст P (ма      ксимум 10 строк = 500 символов)</p>
+<p class="best-posts__author-text">2</p>
+<p class="best-posts__author-text">3</p>
+<p class="best-posts__author-text">4</p>
+<p class="best-posts__author-text">5</p>
+<p class="best-posts__author-text">6</p>
+<p class="best-posts__author-text">7</p>
+<p class="best-posts__author-text">8</p>
+<p class="best-posts__author-text">9</p>
+<p class="best-posts__author-text">10</p>
+<span class="best-posts__border-line"> 1</span>
+<ul class="best-posts__footer">
+
+	<li class="best-posts__footer-item ">
+		<img src="img/liike.svg" alt=" Like">
+		<p class="best-posts__footer-item--color">105к</p>
+		<img src="img/dizLike.svg" alt="DizLike"></li>
+
+
+	<li class="best-posts__footer-item best-posts__footer-item--margin">
+		<img src="img/repost.svg" alt="Reposts">
+		<p>2к</p></li>
+	
+
+	<li class="best-posts__footer-item">
+		<img src="img/mess.svg" alt="Message">
+		<p>999</p></li>
+	
+
+	<li class="best-posts__footer-item">
+		<img src="img/seen.svg" alt="Seen">
+		<p>200к</p></li>
+</ul>
+</div>
+		
+
+	<div class="best-posts__wrapper">
+		<p class="best-posts__auhor-img"><img src="img/ava.jpg" alt="vatar"></p>
+		<div class="best-posts__block-wrapper">
+		<p class="best-posts__author">Дмитрий Ким</p>
+		 <time datetime="2019-09-24" class="best-posts__date">24.09.2019</time>
+		 </div>
+		 <h2 class="best-posts__heading">Лучшие посты</h2>
+		 <img src="img/post.jpg" alt="Изображение записи" width="616" height="250" class="best-posts__img">
+		 <p class="best-posts__author-text">На этой странице вы выводим лучшие посты за неделю. 
+Текст P (ма      ксимум 10 строк = 500 символов)</p>
+<p class="best-posts__author-text">2</p>
+<p class="best-posts__author-text">3</p>
+<p class="best-posts__author-text">4</p>
+<p class="best-posts__author-text">5</p>
+<p class="best-posts__author-text">6</p>
+<p class="best-posts__author-text">7</p>
+<p class="best-posts__author-text">8</p>
+<p class="best-posts__author-text">9</p>
+<p class="best-posts__author-text">10</p>
+<span class="best-posts__border-line"> 1</span>
+<ul class="best-posts__footer">
+
+	<li class="best-posts__footer-item ">
+		<img src="img/liike.svg" alt=" Like">
+		<p class="best-posts__footer-item--color">105к</p>
+		<img src="img/dizLike.svg" alt="DizLike"></li>
+
+
+	<li class="best-posts__footer-item best-posts__footer-item--margin">
+		<img src="img/repost.svg" alt="Reposts">
+		<p>2к</p></li>
+	
+
+	<li class="best-posts__footer-item">
+		<img src="img/mess.svg" alt="Message">
+		<p>999</p></li>
+	
+
+	<li class="best-posts__footer-item">
+		<img src="img/seen.svg" alt="Seen">
+		<p>200к</p></li>
+</ul>
+</div>
+	</section>
+
+	<section class="user-menu">
+<h2 class="visually-hidden">Панель управления пользователя</h2>
+<button class="user-menu--comein" type="button">Войти</button>
+<p class="user-menu--comein-slogan">Нас уже <span>27 199</span> и постоянно становится больше.</p>
+<div class="user-menu--blur">
+
+<div class="user-menu__wrapper ">
+		<img src="img/ava2.jpg" alt="Avatar user" class="user-menu__avatar" width="72" height="72">
+	<div>
+		<p class="user-menu__user-name">Ксения Семинизанова</p>
+				<p class="user-menu__user-login">@superksu</p>
+
+
+	</div>
+		
+
+		</div>
+<table class="user-menu__infomation">
+	<tr>
+		<th>23<br> <p>подписчиков</p></th>
+		<th class="user-menu__infomation-color">Сейчас <br>Online</th>
+		<th></th>
+	</tr>
+	<tr>
+		<th>1<br><p>Публикаций</p></th>
+		<th>0<br><p>Рейтинг</p></th>
+		<th>0<br><p>Подписки</p></th>
+	</tr>
+</table>
+<ul class="user-menu__about-user">
+	<li class="user-menu__about-user-item"><p class="about-user-item__color">О себе</p></li>
+	<li class="user-menu__about-user-item"><p>Мир ловил меня, но не поймал</p></li>
+	<li class="user-menu__about-user-item"><p>Предложения по интервью,тв,кино: </p><a href="tel:+7903722545456">+7903-722-454556</a></li>
+	<li class="user-menu__about-user-item"><p>Комерческий директор:</p><a href="tel:+79637814919">+7963-781-4919</a> Кирилл<p>ПРЕМЬЕРА</p></li>
+</ul>
+<nav class="user-menu__nav">
+
+	<ul class="user-menu__nav-items">
+		<li class="user-menu__nav-item nav-item--color">Сайт: <a href="https://procentos.ru/">Procentos.ru</a></li>
+
+		<li class="user-menu__nav-item nav-item-line"></li>
+		<li class="user-menu__nav-item"><a href="#">Редактировать профиль</a></li>
+		<li class="user-menu__nav-item"><a href="#">Сохранить</a></li>
+		<li class="user-menu__nav-item nav-item-line nav-item-line"></li>
+		<li class="user-menu__nav-item"><a href="#">Написать запись</a></li>
+		<li class="user-menu__nav-item"><a href="#">Черновики</a> </li>
+		<li class="user-menu__nav-item"><a href="#">Сообщения</a></li>
+		<li class="user-menu__nav-item"><a href="#">Сохранения</a></li>
+		<li class="user-menu__nav-item"><a href="#">Портфель</a></li>
+		<li class="user-menu__nav-item"><a href="#">Настройки</a></li>
+		<li class="user-menu__nav-item"><a href="#">Выход</a> </li>
+	</ul>
+</nav>
+</div>
+	</section>
+	</main>
+
+
+	<script src="js/script.js"></script>
+</body>
+</html>
