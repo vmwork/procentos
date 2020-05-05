@@ -48,21 +48,21 @@ companyPopup.classList.toggle('hidemenu');
 (function (){
 	let bestPostHeader = document.querySelector('.best-posts__header');
 	let bestPopup = document.querySelector('.best-popup');
-
+if(bestPostHeader){
 bestPostHeader.addEventListener('click', function() {
 
 bestPopup.classList.toggle('best-popup--hidden');
 
-});
+});}
 })();
 // - для страницы едитор
 (function (){
 	let editor = document.querySelector('.editor__category-wrapper');
 	let editorCategory = document.querySelector('.editor-category');
-
+if(editor){
 editor.addEventListener('click', function() {
 
 editorCategory.classList.toggle('hidemenu');
 
-});
+});}
 })();
