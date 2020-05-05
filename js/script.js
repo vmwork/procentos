@@ -35,12 +35,12 @@ hidemenu.classList.toggle('popup-hide');
 (function (){
 	let companyButton = document.querySelector('.subscriptions-header-subscriptions-company');
 	let companyPopup = document.querySelector('.company-popup');
-
+if(companyButton){
 companyButton.addEventListener('click', function() {
 
 companyPopup.classList.toggle('hidemenu');
 
-});
+});}
 })();
 
 
