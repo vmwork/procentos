@@ -15,11 +15,11 @@ hidemenu.classList.toggle('hide');
 	let buttonMenu = document.querySelector('.main-nav__profile-button');
 let hidemenu = document.querySelector('.profile-menu-popup');
 
-
+if(buttonMenu){
 buttonMenu.addEventListener('click', function() {
 
 hidemenu.classList.toggle('popup-hide');
-});
+});}
 })();
 (function (){
 	let buttonMenu = document.querySelector('.main-header__notification');
